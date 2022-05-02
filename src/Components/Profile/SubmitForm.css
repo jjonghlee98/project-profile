@@ -4,6 +4,7 @@
 
 .submit-form__main {
   width: 22rem;
+  max-width: 90%;
   align-items: center;
   margin: 2rem auto;
   padding: 3rem 0;

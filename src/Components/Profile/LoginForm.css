@@ -41,7 +41,21 @@
 .login-menu {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    margin: 2rem auto;
-    width: 50rem;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+
+.login-menu div {
+    padding: 0 1rem;
+    border-right: 1px solid black;
+    margin-bottom: 3rem;
+}
+
+.login-menu div a {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-menu div:nth-last-child(1) {
+    border-right: none;
 }
