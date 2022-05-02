@@ -1,0 +1,80 @@
+* {
+  transition: .6s;
+}
+
+.submit-form__main {
+  width: 22rem;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 3rem 0;
+}
+
+.submit-form__control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label { 
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+input {
+  width: 13rem;
+  border-style: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.7rem;
+}
+
+.submit-form__button {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-form__button button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: 15rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.submit-form__button button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.submit-form__email input {
+  margin-bottom: 1.25rem;
+}
+
+.submit-form__nick input {
+  margin-bottom: 1.25rem;
+}
+
+.submit-form__clear {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-form__clear button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  width: 15rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.submit-form__clear button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}

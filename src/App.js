@@ -1,38 +1,11 @@
-// import ExpenseItem from "./components/ExpenseItem";
-import Expenses from './components/Expenses';
+import React from 'react';
 
-function App() {
-  const expenses = [
-    {
-      id: "e1",
-      title: "Jonghwan",
-      date: new Date(2022, 4, 22),
-      amount: 32.99,
-    },
-    {
-      id: "e2",
-      title: "Junghwan",
-      date: new Date(2022, 4, 23),
-      amount: 52.99,
-    },
-    {
-      id: "e3",
-      title: "Hee",
-      date: new Date(2022, 4, 24),
-      amount: 15.99,
-    },
-    {
-      id: "e4",
-      title: "Hae",
-      date: new Date(2022, 4, 25),
-      amount: 99.99,
-    },
-  ];
+import Submit from './Components/Profile/Submit';
+const App = () => {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <Expenses items={expenses}/>
+      <Submit />
     </div>
-  );
-}
+  )
+};
 export default App;
