@@ -1,0 +1,47 @@
+.login-form__main {
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 33%;
+    min-width: 22rem;
+    max-width: 90%;
+}
+
+.login-form__control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form__button button {
+    margin-top: 1.45rem;
+    padding: 0.5rem 8.9rem;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.login-form__button button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.login-form__email, .login-form__pwd {
+    float: right;
+}
+
+.login-form__email label {
+    margin: 1rem;
+}
+
+.login-form__pwd label {
+    margin: 0.536rem;
+}
+
+.login-menu {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 2rem auto;
+    width: 50rem;
+}

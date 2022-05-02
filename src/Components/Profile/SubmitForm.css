@@ -15,7 +15,27 @@
   align-items: center;
 }
 
-label { 
+.submit-form__name label { 
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+.submit-form__email label { 
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+.submit-form__num label { 
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+.submit-form__pwd label { 
+  display: flex;
+  margin: 0.25rem 0;
+}
+
+.submit-form__nick label { 
   display: flex;
   margin: 0.25rem 0;
 }
