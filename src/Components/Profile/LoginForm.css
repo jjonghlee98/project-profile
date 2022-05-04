@@ -49,6 +49,7 @@
     padding: 0 1rem;
     border-right: 1px solid black;
     margin-bottom: 3rem;
+    justify-content: center;
 }
 
 .login-menu div a {
