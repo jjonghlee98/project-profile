@@ -1,7 +1,8 @@
 import React from "react";
-
+import Routess from "./Routess";
 import Card from "../UI/Card";
 import "./LoginForm.css";
+
 const LoginForm = () => {
   return (
     <div>
@@ -20,17 +21,8 @@ const LoginForm = () => {
           </div>
         </form>
       </Card>
-      <div className="login-menu">
-        <div>
-          <a href="\">회원가입</a>
-        </div>
-        <div>
-          <a href="\">이메일 찾기</a>
-        </div>
-        <div>
-          <a href="\">비밀번호 찾기</a>
-        </div>
-      </div>
+
+      <Routess />
 
     </div>
   );
